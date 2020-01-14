@@ -21,9 +21,19 @@ let location =  `The URL for this site is ${window.location}.`
 
 let myWindow = document.querySelector('#myWindow').innerText = `${windowSizes} \n ${offset} \n ${location}`
 
+
+
+
+
 }
 
 
 reDisplay()
+
+
+
+let docTitle = `This document is titled ${document.title}.`
+let docUpdate = `This was last updated on ${document.lastModified}.`
+let myDocument = document.querySelector('#myDocument').innerText = `${docTitle} \n ${docUpdate}`
 
 
