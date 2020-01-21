@@ -1,6 +1,25 @@
 
+    
+    
+    
+    header {
+        max-width: 75rem;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-left: 11%; */
+        background-image: url(../images/detective1.jpg);
+        background-repeat: no-repeat;
+        background-position: 0% 30%;
+        /* background-size: 100%; */
+        padding-top: 2%;
+        height: 280px;
+}
 
-
+header h1, header h2 {
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Bangers', cursive;
+}
 
 
 
@@ -9,5 +28,6 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
+    max-width: 75rem;
     
 }
