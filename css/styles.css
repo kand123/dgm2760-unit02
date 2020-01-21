@@ -6,28 +6,68 @@
         max-width: 75rem;
         margin-left: auto;
         margin-right: auto;
-        /* padding-left: 11%; */
-        background-image: url(../images/detective1.jpg);
+        background-image: url(../images/detective3.jpg);
         background-repeat: no-repeat;
-        background-position: 0% 30%;
-        /* background-size: 100%; */
+        background-position: 0% 50%;
         padding-top: 2%;
         height: 280px;
 }
 
 header h1, header h2 {
-    color: white;
-    font-family: 'Black Ops One', cursive;
+    
     font-family: 'Bangers', cursive;
+    padding-left: 2%;
+}
+
+header h1 {
+    color: #fee405;
+    font-size: 3.1rem;
+    margin-bottom: 0;
+}
+
+header h2 {
+    color: #f1c92e;
+margin-top: .5rem;
+font-size: 1.5rem;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:2%;
+    max-width: 75rem;
+    margin-bottom: 4%;
+    line-height: 145%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main h1 {
+    color: #cca404;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+main h2 {
+    font-size: 1.3rem;
+    color: #444;
 }
 
 
 
+main ul.objectives {
+    list-style-type: square; 
+}
 
 footer {
-    background-color: #000;
+    background-color: #999;
     color: #fff;
     text-align: center;
     max-width: 75rem;
-    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    font-size: .9rem;
+    padding: 1.1rem;
 }
